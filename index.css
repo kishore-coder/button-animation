@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    background-color: rgb(165, 231, 98);
+    color: black;
+    transition: background-color 0.5s linear;
+    transition: color 0.5 linear;
+    width: 10rem;
+    height: 5rem;
+    border-radius: 2rem;
+    font-size: larger;
+    font-weight: bolder;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: none;
+}
+
+button:hover {
+    background-color: rgb(131, 128, 123);
+    color: black;
+
+}
